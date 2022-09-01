@@ -24,3 +24,4 @@ I used [for resizing background video for small screen](https://www.youtube.com/
 
  
 ### GitHub Pages Link
+[Gosa Garage Rough Draft Link](https://abdullahq77.github.io/GosaGarage/index.html)
