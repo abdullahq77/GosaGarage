@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Abdullah">
+  <meta name="description" content="Build a portfolio website.">
+  <title>GosaGarage - Contact</title>
+  <!-- css, favicon and fonts -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Karantina&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!--nav and hero section-->
+  <section class="sub-header3">
+    <nav>
+      <a href="index.html"><img src="assets/logos/lambologo2.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-window-close-o" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="services.html">OUR SERVICES</a></li>
+          <li><a href="reviews.html">REVIEWS</a></li>
+          <li><a href="contactus.html">CONTACT US</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-car" onclick="showMenu()"></i>
+    </nav>
+    <h1>Contact Us</h1>
+  </section>
+   <!--Location section-->
+   <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d160599.7880585241!2d-114.22791684751202!3d51.
+    02775550737476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537170039f843fd5%3A0x266d3bb1b652b63a!2s
+    Calgary%2C%20AB!5e0!3m2!1sen!2sca!4v1617071120895!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+  <!--Contact Section-->
+  <section class="contact-us">
+    <div class="row">
+      <div class="contact-col">
+        <div>
+          <i class="fa fa-home"></i>
+          <span>
+            <h5>XYZ Road, ABC Building</h5>
+            <p>Calgary, Alberta</p>
+          </span>
+        </div>
+        <div>
+          <i class="fa fa-phone"></i>
+          <span>
+            <h5>4078382383</h5>
+            <p>Monday to Sunday, 8AM-5PM</p>
+          </span>
+        </div>
+        <div>
+          <i class="fa fa-envelope-o"></i>
+          <span>
+            <h5>gosagarage@outlook.com</h5>
+            <p>Email Me</p>
+          </span>
+        </div>
+      </div>
+      <!--Contact Form-->
+      <div class="contact-col">
+        <h1>Lets Fix It</h1>
+        <form action="form-handler.php" method="POST">
+          <input type="text" name="name" placeholder="Enter your name" required>
+          <input type="email" name="email" placeholder="Enter email address" required>
+          <input type="text" name="subject" placeholder="Enter your subject" required>
+          <textarea rows="8" name="message" placeholder="Message"></textarea>
+          <button type="submit" class="hero-btn">Submit</button>
+        </form>
+      </div>
+    </div>      
+  </section>
+  <!--Footer section-->
+  <section class="footer">
+    <h4>&copy; Copyright 2021 GosaGarage</h4>
+    <p>Make sure to follow us on:</p>
+    <div class="icons">
+      <i class="fa fa-linkedin"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-facebook"></i>
+    </div>  
+  </section>
+    <!--Javascript for Toggle Menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+  
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+  
+      function hideMenu() {
+        navLinks.style.right = "-100%";
+      }
+  
+    </script>
+  </body>
+  </html>

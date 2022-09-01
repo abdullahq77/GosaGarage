@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Abdullah">
+  <meta name="description" content="Build a portfolio website.">
+  <title>GosaGarage - Home</title>
+  <!-- css, favicon and fonts -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Karantina&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!--nav and hero section-->
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="assets/logos/lambologo2.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-window-close-o" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="services.html">OUR SERVICES</a></li>
+          <li><a href="reviews.html">REVIEWS</a></li>
+          <li><a href="contactus.html">CONTACT US</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-car" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+      <h1 class="welcome">Great service <br> starts here</h1>
+      <p></p>
+    </div>
+    <video id="videoBG" poster="poster.JPG" autoplay muted loop>
+      <source src="assets/images/drift.mp4" type="video/mp4">
+    </video>  
+  </section>
+  <!--2nd section-->
+
+  <section class="sub-header">
+    <h1>About us</h1>
+    <p>Rev up your engines. SINCE 2021 We have been changing lives. After years of hard work, I am finally able to bring to the people my very own mechanic workshop.
+      In the world of automotive everyone gets ripped off and taken advantage of, but we are here to change that. Not only do we guarantee the best service, 
+      we will also put our outmost effort into educating the public and showing them what we are really capable of. At GosaGarage, you got two choices, Option A:
+      we give you the best service ever or Option B: we give you better service than anyone else. Choice is yours.  
+    </p>
+    <a href="services.html" class="hero-btn">Our Services</a>
+  </section>
+  <!--Footer section-->
+  <section class="footer">
+    <h4>&copy; Copyright 2021 GosaGarage</h4>
+    <p>Make sure to follow us on:</p>
+    <div class="icons">
+      <i class="fa fa-linkedin"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-facebook"></i>
+    </div>
+  </section>
+  <!--Javascript for Toggle Menu-->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+      navLinks.style.right = "-100%";
+    }
+
+  </script>
+</body>
+</html>

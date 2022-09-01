@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Abdullah">
+  <meta name="description" content="Build a portfolio website.">
+  <title>GosaGarage - Reviews</title>
+  <!-- css, favicon and fonts -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Karantina&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!--nav and hero section-->
+  <section class="sub-header2">
+    <nav>
+      <a href="index.html"><img src="assets/logos/lambologo2.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-window-close-o" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="services.html">OUR SERVICES</a></li>
+          <li><a href="reviews.html">REVIEWS</a></li>
+          <li><a href="contactus.html">CONTACT US</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-car" onclick="showMenu()"></i>
+    </nav>
+    <h1>Reviews</h1>
+  </section>
+  <!--Reviews-->
+  <section class="reviews">
+    <div class="row">
+      <div class="reviews-col">
+        <img src="assets/images/review1.jpeg">
+        <div>
+          <p>YESSIIRR this guy is amazing at making websites and working with code. It's a pleasure to work with this dude.
+            *1 hour awkward pause* Had to take half a star off cause he is not as big as me yet.
+          </p>
+          <h3>Abdullah</h3>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+      </div>
+      <div class="reviews-col">
+        <img src="assets/images/review2.jpeg">
+        <div>
+          <p>Hey guys Gosa Adam here. Absoluetly awesome developer on our hands. Knows how to get work down
+            and Id love to feature him on my channel, but just don't want him to destroy me in lifting. HAHAHAHAHA.
+          </p>
+          <h3>Gosa Adam</h3>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+      </div>
+      <div class="reviews-col">
+        <img src="assets/images/review3.jpeg">
+        <div>
+          <p>Hey guys Gosa Adam here. Absoluetly awesome developer on our hands. Knows how to get work down
+            and Id love to feature him on my channel, but just don't want him to destroy me in lifting. HAHAHAHAHA.
+          </p>
+          <h3>Gosa Adam</h3>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+      </div>
+    </div>
+    <a href="services.html" class="hero-btn">Write A Review!</a>
+  </section>
+  <!--Footer section-->
+  <section class="footer">
+    <h4>&copy; Copyright 2021 GosaGarage</h4>
+    <p>Make sure to follow us on:</p>
+    <div class="icons">
+      <i class="fa fa-linkedin"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-facebook"></i>
+    </div>  
+  </section>
+    <!--Javascript for Toggle Menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+  
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+  
+      function hideMenu() {
+        navLinks.style.right = "-100%";
+      }
+  
+    </script>
+  </body>
+  </html>
