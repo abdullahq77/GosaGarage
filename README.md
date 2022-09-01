@@ -1,7 +1,7 @@
 # Gosa's Mechanic Site
 
 ## License
-Copyright 2022 MyGarage
+Copyright 2022 GosaGarage
 
 ## Attributions
 I used [this site for car logo image](https://www.subpng.com/png-pijn5j/)
