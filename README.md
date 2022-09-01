@@ -1,4 +1,4 @@
-# Gosa's Mechanic Site
+# Gosa's Mechanic Site (Mock up)
 
 ## License
 Copyright 2022 GosaGarage
