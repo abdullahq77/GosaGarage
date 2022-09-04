@@ -19,7 +19,7 @@
 
 /* Nav and Hero section begin here */
 .header {
-  min-height: 100vh;
+  min-height: 114.2vh;
   width: 100%;
   background-image: linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4));
 }
@@ -204,14 +204,13 @@ nav .fa {
 
 
 .sub-header {
-  height: 70vh;
-  width: 100%;
+  height: 80vh;
+  width: 60%;
   margin: auto;
-  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../assets/images/background-15.jpg);
+  background-color: white;
   background-position: center;
   background-size: cover;
-  text-align: center;
-  color: black;
+  text-align: left;
 }
 
 .sub-header h1 {
@@ -223,15 +222,15 @@ nav .fa {
   text-transform: uppercase;
   word-spacing: -12px;
   letter-spacing: 10px;
-  color: white;
-  text-shadow: 5px 5px 33px #000000;
+  color: black;
+  text-shadow: 5px 5px 33px #ffffff;
 }
 
 .sub-header p {
-  color: white;
+  color: black;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
-  padding: 0px 20px 50px 20PX;
+  padding: 0px 0px 50px 0PX;
   line-break:auto;
 }
 
@@ -335,7 +334,7 @@ nav .fa {
 .sub-header1 {
   height: 50vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url(../assets/images/background-13.jpg);
+  background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url(../assets/images/services.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -441,7 +440,7 @@ nav .fa {
 .sub-header2 {
   height: 50vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url(../assets/images/background-4.jpeg);
+  background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url(../assets/images/reviews.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -549,7 +548,7 @@ nav .fa {
 .sub-header3 {
   height: 50vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url(../assets/images/background-7.jpeg);
+  background-image: linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url(../assets/images/contact1.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
