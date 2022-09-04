@@ -50,7 +50,7 @@
     display: none;
   }
   .header {
-    background: linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url('../assets/images/background-6.jpeg');
+    background: linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url('/assets/images/hero3.jpg');
     background-size: cover;
     background-position: center;
   }
@@ -157,10 +157,10 @@ nav .fa {
     font-family: 'Anton', sans-serif;
   }
 
-  /* So the rocket icon can show up we move the small screen menu-background 200px to the right */
+  /* So the car icon can show up we move the small screen menu-background 200px to the right */
   .nav-links {
     position: fixed;
-    background: url("../assets/images/background-12.jpeg");
+    background: url("/assets/images/hero2.jpg");
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -214,7 +214,7 @@ nav .fa {
 }
 
 .sub-header h1 {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 50PX;;
   font-family: 'Anton', sans-serif;
   font-size: 80px;
@@ -235,6 +235,10 @@ nav .fa {
 }
 
 @media(max-width:700px) {
+  .sub-header {
+    height: 100%;
+  }
+
   .sub-header h1 {
     font-size: 50px;
   }
@@ -266,7 +270,9 @@ nav .fa {
   transform: scale(1.07);
 }
 
-
+.second {
+  margin-top: 50px;
+}
 
 
 
@@ -411,6 +417,11 @@ nav .fa {
     font-size: 15px;
   }
 
+  
+  .services {
+    width: 85%;
+  }  
+
   .services-col h2 {
     font-size: 30px;
   }
@@ -469,6 +480,13 @@ nav .fa {
   text-align: center;
   width: 95%;
   margin: auto;
+}
+
+
+@media(max-width: 700px) {
+  .reviews {
+  width: 85%;
+  }
 }
 
 .reviews a {
@@ -573,6 +591,7 @@ nav .fa {
   .sub-header3 h1 {
     font-size: 80px;
   }
+  
 }
 
 
