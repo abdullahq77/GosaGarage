@@ -1,6 +1,6 @@
 # Gosa's Mechanic Site (Mock up)
 
-Mock up sute which is just a rough draft of work
+Mock up site which is just a rough draft of work
 
 ## License
 Copyright 2022 GosaGarage
